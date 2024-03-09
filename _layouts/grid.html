@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {% include head.html %}
+
+  <body>
+    {% include header.html %}
+
+    <main aria-label="Content">
+      <div class="container">
+        <section class="works works--index">
+          {% assign sorted_works = site.works | sort: 'priority' %}
+          {% for work in sorted_works %}
+              {% if work.title %}
+                  {% include work.html url=work.url title=work.title category=work.category poster=work.poster index=true %}
+              {% endif %}
+          {% endfor %}
+        </section>
+      </div>
+    </main>
+
+    {% include footer.html %}
+  </body>
+</html>
