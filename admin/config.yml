@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: rzecchini/lucatoniolo # Path to your Github repository
+  repo: Charrlotte1/Charrlotte1.github.io # Path to your Github repository
   branch: master # Branch to update
 
 media_folder: "assets/uploads" # Media files will be stored in the repo under images/uploads

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang='{{ page.lang | default: site.lang | default: "en" }}'>
+
+{% include head.html %}
+
+<body class="{{ page.title | downcase }}-page">
+
+  {% include header.html %}
+
+  <main class="default-content" aria-label="Content">
+    <div class="container">
+      <div class="page">
+        {% assign title = page.title |downcase|strip %}
+        {% if page.title and title != 'about' %}
+        <hgroup class="page__header">
+          <h1 class="page__title">{{ page.title }}</h1>
+          {% if page.category %}
+          <h3 class="page__category">{{ page.category }}</h3>
+          {% endif %}
+        </hgroup>
+        {% endif %}
+
+        {{ content }}
+      </div>
+
+      <h4 class="photo">Me</h4>
+      <section class="works works--index">
+        <div class="page__pic">
+          <img src="/assets/uploads/adelinaneu.jpg" sizes="(min-width:200px) 10vw, 20vw" alt="Me">
+        </div>
+      </section>
+    </div>
+  </main>
+  {% include footer.html %}
+
+</body>
+
+</html>
