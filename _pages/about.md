@@ -3,7 +3,7 @@ layout: about
 permalink: /about/
 title: 'ABOUT'
 images:
-   - picture: /assets/uploads/adelinaneu.jpg
+   - picture: /assets/uploads/adelinaProfile.jpeg
 ---
 
 ## About  

@@ -1,14 +1,10 @@
-
 {% assign isIndex = include.index || false %}
 
 <a class="work {% if isIndex %} work--index {% endif %}" href="{{ include.url | relative_url }}">
     <div class="work__image-wrapper">
-        {% if isIndex %}
-            <img class="work__image" src="/assets/uploads/adelinaneu.jpg">
-        {% else %}
-            <img class="work__image" src="/assets/uploads/adelinaneu.jpg">
-        {% endif %}
+        <img class="work__image" src="{{include.poster | escape}}">
     </div>
     <h3 class="work__title">{{ include.title | escape }}</h3>
     <h4 class="work__category">{{ include.category | escape }}</h4>
+    <h5 class="work__year">{{ include.year }}</h5>
 </a>
