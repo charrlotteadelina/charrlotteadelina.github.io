@@ -13,7 +13,7 @@ pagination:
   sort_reverse: true
 ---
 
-<h1 class="col-header dark-orange">All posts</h1>
+<h1 class="col-header dark-orange">Recent posts</h1>
 {% for post in site.posts %}
 <div class="post-preview">
  <img class="post-preview__left" src="{{ post.image }}" alt="{{ page.image_alt }}">

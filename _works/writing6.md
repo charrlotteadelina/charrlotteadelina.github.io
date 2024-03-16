@@ -1,7 +1,7 @@
 ---
 title: Skilling the Last First  
 link: https://www.theindiaforum.in/article/skilling-last-first
-category: Research article
+category: Published blog
 year: 2019
 poster: "https://www.theindiaforum.in/sites/default/files/styles/cover_story/public/field/image/2022/06/21/dsc07808-1575621368-1575621368.jpg"
 layout: default

@@ -9,67 +9,22 @@
     <section class="works padding">
       <div class="Wallop">
         <div class="Wallop-list">
-          {% for work in site.works %}
-          {% if work.title and work.home %}
+          {% for work in site.workpics %}
+          {% if work.title %}
           <div class="Wallop-item">
-            {% include work.html url=work.url title=work.title category=work.category poster=work.poster %}
+            {% include work.html url=work.url
+            poster=work.poster %}
           </div>
           {% endif %}
           {% endfor %}
         </div>
       </div>
-
-      <a class="works__link" href="{{ '/works' | relative_url }}">+ works</a>
-    </section>
-
-    <section class="all-works">
-      {% assign see_works = 0 %}
-      {% for work in site.works %}
-      {% if work.home == false and see_works < 2 %} <div class="all-works__item"
-        style="background-image:url('/assets/uploads/adelinaneu.jpg')">
-        </div>
-        {% assign see_works = see_works | plus: 1 %}
-        {% endif %}
-        {% endfor %}
-        <a class="all-works__label" href="{{ '/works' | relative_url }}"><span>See all works</span></a>
-    </section>
-
-    <section class="hello">
-      <h1 class="hello__title">Charrlotte Adelina</h1>
-      <h2 class="hello__sub">Researcher</h2>
-      <div>
-        <span class="hello__clients-excerpt">
-          {% assign sorted_clients = site.clients | sort: 'priority' %}
-          {% for client in sorted_clients %}
-          {% if forloop.index < 5 %} {% if client.work_link and client.work_link !='' %} <a class="hello__client-link"
-            href="{{ client.work_link | relative_url }}">{{ client.title }},</a>
-            {% else %}
-            {{ client.title }},
-            {% endif %}
-            {% endif %}
-            {% endfor %}
-        </span>
-        <span class="hello__clients-all js-clients-all" style="display:none">
-          {% for client in sorted_clients %}
-          {% if forloop.index >= 5 %}
-          {% if client.work_link and client.work_link != '' %}
-          <a class="hello__client-link" href="{{ client.work_link | relative_url }}">{{ client.title }}</a>{% if
-          forloop.last != true %},{% endif %}
-          {% else %}
-          {{ client.title }}{% if forloop.last != true %},{% endif %}
-          {% endif %}
-          {% endif %}
-          {% endfor %}
-        </span>
-      </div>
-    </section>
-
-    <section class="about">
-      <a class="about__link" href="{{ '/about' | relative_url }}">+ About Me</a>
     </section>
   </main>
-
+  <a class="works__link" href="{{ '/writing' | relative_url }}">+ Writing </a>
   {% include footer.html %}
 </body>
 
 </html>
+
+<script src="{{ "/assets/main.js" | relative_url }}"></script>

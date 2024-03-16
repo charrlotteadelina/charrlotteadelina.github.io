@@ -47,6 +47,9 @@ collections:
     permalink: /:collection/:name
   clients:
     output: false
+  workpics:
+    output: true
+    permalink: /_workpics
 
 # Defaults
 defaults:
@@ -69,6 +72,14 @@ defaults:
       path: ""
       type: "clients"
     values:
+      priority: "a"
+  -
+    scope:
+      path: ""
+      type: "workpics"
+    values:
+      layout: "default"
+      home: false
       priority: "a"
 
 # Plug-ins

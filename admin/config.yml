@@ -36,6 +36,27 @@ collections:
         fields:
         - {label: "Picture", name: "picture", widget: "image"}
       - {label: "Text", name: "body", widget: "markdown", required: false}
+  
+  - name: "workpics" # Used in routes, e.g., /admin/collections/blog
+    label: "workpics" # Used in the UI
+    folder: "_workpics" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Category", name: "category", widget: "string", required: false}
+      - {label: "Year", name: "year", widget: "string", required: false}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "default", required: false}
+      - {label: "Cover", name: "poster", widget: "image", required: false}
+      - {label: "Home", name: "home", widget: "boolean", default: false, required: false}
+      - {label: "Priority", name: "priority", widget: "string", required: false}
+      - label: "Images"
+        name: "images"
+        required: false
+        widget: "list"
+        fields:
+        - {label: "Picture", name: "picture", widget: "image"}
+      - {label: "Text", name: "body", widget: "markdown", required: false}
 
   - name: "clients" # Used in routes, e.g., /admin/collections/blog
     label: "Clients" # Used in the UI
