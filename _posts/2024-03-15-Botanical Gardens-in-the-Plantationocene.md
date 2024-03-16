@@ -12,6 +12,8 @@ toc:
   sidebar: left
 ---
 
+<br>
+
 For a field course for the first semester Geography students, I arranged their visit to the Berliner Botanischer Garten and Museum and introduced the concept of ‘Plantationocene’. The botanical garden and the plantation have nothing in common. One is a place of cultural enlightenment, a sense of quiet in the midst of a busy city, and a concoction of thriving, diverse plants, and an oasis of calm. The plantation is a sign of doom for ecosystems, human health, and community life – even as they largely structure global food production and consumption of commodities. So, why to study the two side by side? What role did colonial institutions such as the botanical garden have in furthering the plantation economy?
 
 <br>
