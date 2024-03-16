@@ -344,11 +344,15 @@ $large: 62.5rem;
 /* Page
  *=======================================*/
 .page {
-  margin-bottom: 6rem;
+  margin-bottom: 0rem;
 }
 
 .page__header {
-  padding: 3rem 0 4rem;
+  padding: 2rem 0 0rem;
+}
+
+.page__header2 {
+  padding: 0rem 0 0rem;
 }
 
 .page__title,

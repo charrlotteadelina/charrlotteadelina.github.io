@@ -3,8 +3,8 @@ layout: default
 ---
 <div class="b-hero">
   <div class="b-hero__author-date">
-    <span>{{ page.author }}</span>
     <span>{{ page.date | date: "%b %d, %Y" }}</span>
+    <span>{{ page.author }}</span>
     <div class="tag-group">
       {% for tag in page.tags %}
       <div class="tag">

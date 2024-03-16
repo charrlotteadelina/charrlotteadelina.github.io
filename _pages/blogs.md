@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Blogs
+title: Recent posts
 permalink: /blogs/
 nav: true
 nav_order: 1
@@ -13,12 +13,19 @@ pagination:
   sort_reverse: true
 ---
 
-<h1 class="col-header dark-orange">Recent posts</h1>
 {% for post in site.posts %}
 <div class="post-preview">
  <img class="post-preview__left" src="{{ post.image }}" alt="{{ page.image_alt }}">
  <div class="post-preview__right">
-   <a class="preview-title" href="{{ post.url }}">{{ post.title }}</a>
+  <head>
+  <style>
+    .link { color: #013220; }
+    .link:hover { color: #0099ff; }
+    .link { text-decoration: underline }
+    .link:visited {colour: #cc00ff}
+  </style>
+  </head>
+   <a class="link" href="{{ post.url }}">{{ post.title }}</a>
    <span>{{ post.date | date: "%b %d, %Y" }}</span>
    <div class="tag-group">
      {% for tag in post.tags %}

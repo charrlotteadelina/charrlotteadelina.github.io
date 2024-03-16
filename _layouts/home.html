@@ -12,8 +12,7 @@
           {% for work in site.workpics %}
           {% if work.title %}
           <div class="Wallop-item">
-            {% include work.html url=work.url
-            poster=work.poster %}
+            {% include work.html url=work.url poster=work.poster %}
           </div>
           {% endif %}
           {% endfor %}
@@ -21,7 +20,6 @@
       </div>
     </section>
   </main>
-  <a class="works__link" href="{{ '/writing' | relative_url }}">+ Writing </a>
   {% include footer.html %}
 </body>
 

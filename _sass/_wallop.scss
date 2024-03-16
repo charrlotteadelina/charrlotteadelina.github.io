@@ -16,11 +16,11 @@
  */
 .Wallop {
   position: relative;
-  max-width: 455px;
+  max-width: 1000px;
   margin: auto;
 
   @include media-query($large) {
-    width: 33.333%;
+    width: 50%;
   }
 }
 
@@ -47,9 +47,9 @@
 .Wallop-item {
   visibility: hidden;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 3rem;
   width: 100%;
+  display: block;
 }
 
 /*
