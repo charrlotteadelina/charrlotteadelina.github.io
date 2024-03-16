@@ -9,7 +9,7 @@ images:
 
 <br>
 
-I am Charrlotte, a PhD candidate in Human Geography at Freie Universität Berlin. I carry an Integrated Masters in Development Studies from the Indian Institute of Technology - Madras. I worked in various research and policy think-tanks from 2016 to 2021.
+I am Charrlotte, a PhD candidate in Human Geography at Freie Universität Berlin. I hold an Integrated Masters in Development Studies from the Indian Institute of Technology - Madras (IIT-M). I worked in various research and policy think-tanks from 2016 to 2021.
 
 <br>
 
