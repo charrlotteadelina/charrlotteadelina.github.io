@@ -15,7 +15,7 @@ toc:
 <br>
 
 <div style="text-align: left">
-For a field seminar of the B.Sc., Geography program at FU Berlin, I arranged a visit to the Berlin's Botanischer Garten and Museum and introduced the concept of ‘Plantationocene’ to critically situate the institution. At first sight, the botanical garden and the plantation have nothing in common - one is a place of cultural enlightenment, a sense of quiet in the midst of a busy city, and a staged concoction of thriving plants, and an oasis of calm. On the other hand, the monoculture plantation is a sign of doom for ecosystems, human health, and communal life – even as they largely structure global food production and consumption of commodities in industrialised economies. So, why to study the two side by side? What role did institutions such as the botanical garden have in furthering the plantation economy?
+For a field seminar of the B.Sc., Geography program at FU Berlin, I arranged a visit to the Berlin's Botanischer Garten and Museum and introduced the concept of ‘Plantationocene’ (Chao et al, 2023) to critically situate the institution. At first sight, the botanical garden and the plantation have nothing in common - one is a place of cultural enlightenment, a sense of quiet in the midst of a busy city, and a staged concoction of thriving plants, and an oasis of calm. On the other hand, the monoculture plantation is a sign of doom for ecosystems, human health, and communal life – even as they largely structure global food production and consumption of commodities in industrialised economies. So, why to study the two side by side? What role did institutions such as the botanical garden have in furthering the plantation economy?
 </div>
 
 <br>
@@ -76,7 +76,7 @@ After the walk, students reflected on how the garden is an unrealistic collectio
 <br>
 
 <div style="text-align: left">
-Overall, the trip seemed to be fairly successful, and students picked on different themes from the seminar.  One of them summed it up quite nicely: “I didn’t know we could explain so much with the movement of plants, but we can!”
+Overall, the trip seemed to be fairly successful, and students picked up on different themes from the seminar.  One of them summed it up quite nicely: “I didn’t know we could explain so much with the movement of plants, but we can!”
 </div>
 
 <br> 
@@ -91,5 +91,5 @@ Smith, Paul. "The challenge for botanic garden science." Plants, People, Planet
 
 Sabea, Hanan. "Mastering the landscape? Sisal plantations, land, and labor in Tanga Region, 1893-1980s." The International journal of African historical studies 41.3 (2008): 411-432.
 
-Kaiser, Katja. "Exploration and exploitation: German colonial botany at the Botanic Garden and Botanical Museum Berlin." Sites of imperial memory. Manchester University Press, 2016. 225-242![image](https://github.com/charrlotteadelina/charrlotteadelina.github.io/assets/22673990/4cb71fcf-3c5f-434a-ae01-9c1df2bfe0ec)
+Kaiser, Katja. "Exploration and exploitation: German colonial botany at the Botanic Garden and Botanical Museum Berlin." Sites of imperial memory. Manchester University Press, 2016. 225-242.
 
