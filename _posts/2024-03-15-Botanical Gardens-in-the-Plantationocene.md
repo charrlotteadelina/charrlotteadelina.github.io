@@ -79,17 +79,37 @@ After the walk, students reflected on how the garden is an unrealistic collectio
 Overall, the trip seemed to be fairly successful, and students picked up on different themes from the seminar.  One of them summed it up quite nicely: “I didn’t know we could explain so much with the movement of plants, but we can!”
 </div>
 
-<br> 
+<br>
+
 **Further Reading**
 
-Podcast by FDCL on “Curare, rubber, stevia - a colonial search for traces of plant collecting”, Accessible here:
+<div style="text-align: left">
+  
+* Podcast by FDCL on “Curare, rubber, stevia - a colonial search for traces of plant collecting”, Accessible here:
 https://www.fdcl.org/publication/2020-10-16-curare-kautschuk-stevia-eine-koloniale-spurensuche-ueber-das-pflanzensammeln/
 
-Sophie Chao, Wendy Wolford, Andrew Ofstehage, Shalmali Guttal, Euclides Gonçalves & Fernanda Ayala (10 Jul 2023): The Plantationocene as analytical concept: a forum for dialogue and reflection, The Journal of Peasant Studies, DOI:10.1080/03066150.2023.2228212
+</div>
 
-Smith, Paul. "The challenge for botanic garden science." Plants, People, Planet 1.1 (2019): 38-43.
+<div style="text-align: left">
 
-Sabea, Hanan. "Mastering the landscape? Sisal plantations, land, and labor in Tanga Region, 1893-1980s." The International journal of African historical studies 41.3 (2008): 411-432.
+  * Sophie Chao, Wendy Wolford, Andrew Ofstehage, Shalmali Guttal, Euclides Gonçalves & Fernanda Ayala (10 Jul 2023): The Plantationocene as analytical concept: a forum for dialogue and reflection, The Journal of Peasant Studies, DOI:10.1080/03066150.2023.2228212
 
-Kaiser, Katja. "Exploration and exploitation: German colonial botany at the Botanic Garden and Botanical Museum Berlin." Sites of imperial memory. Manchester University Press, 2016. 225-242.
+</div>
 
+<div style="text-align: left">
+
+  * Smith, Paul. "The challenge for botanic garden science." Plants, People, Planet 1.1 (2019): 38-43.
+
+</div>
+
+<div style="text-align: left">
+
+  * Sabea, Hanan. "Mastering the landscape? Sisal plantations, land, and labor in Tanga Region, 1893-1980s." The International journal of African historical studies 41.3 (2008): 411-432.
+
+</div>
+
+<div style="text-align: left">
+
+  * Kaiser, Katja. "Exploration and exploitation: German colonial botany at the Botanic Garden and Botanical Museum Berlin." Sites of imperial memory. Manchester University Press, 2016. 225-242.
+
+</div>

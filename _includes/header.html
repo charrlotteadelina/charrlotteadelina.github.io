@@ -1,11 +1,12 @@
 <header class="site-header" role="banner">
     <div class="site-header__flex container">
         <a href="{{ '/about' | relative_url }}">
-            Charrlotte Adelina | Researcher
+            Charrlotte Adelina
         </a>
         <ul class="site-header__menu">
             {% assign current = page.url | downcase | split: '/' %}
-            {% for page in site.pages %}
+            {% assign sorted_pages = site.pages | sort:"order" %}
+            {% for page in sorted_pages %}
             {% assign page_url = page.url | downcase | split: '/' %}
             {% if page.title %}
             <li class="site-header__item">

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Recent posts
+title: Blogs
 permalink: /blogs/
 nav: true
 nav_order: 1
@@ -11,6 +11,7 @@ pagination:
   per_page: 5
   sort_field: date
   sort_reverse: true
+order: 4
 ---
 
 {% for post in site.posts %}

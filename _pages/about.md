@@ -4,6 +4,7 @@ permalink: /about/
 title: 'ABOUT'
 images:
    - picture: /assets/uploads/adelinaProfile.jpeg
+order: 1
 ---
 ## About
 
