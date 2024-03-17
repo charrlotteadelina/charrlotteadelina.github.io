@@ -15,7 +15,7 @@ toc:
 <br>
 
 <div style="text-align: left">
-For a field-based seminar for first semester students in B.Sc., Geography, I arranged a visit to the Berliner Botanischer Garten and Museum and introduced the concept of ‘Plantationocene’ to critically situate the institution. At first sight, the botanical garden and the plantation have nothing in common - one is a place of cultural enlightenment, a sense of quiet in the midst of a busy city, and a staged concoction of thriving plants, and an oasis of calm. On the other hand, the plantation is a sign of doom for ecosystems, human health, and communal life – even as they largely structure global food production and consumption of commodities in industrialised economies. So, why to study the two side by side? What role did institutions such as the botanical garden have in furthering the plantation economy?
+For a field seminar of the B.Sc., Geography program at FU Berlin, I arranged a visit to the Berlin's Botanischer Garten and Museum and introduced the concept of ‘Plantationocene’ to critically situate the institution. At first sight, the botanical garden and the plantation have nothing in common - one is a place of cultural enlightenment, a sense of quiet in the midst of a busy city, and a staged concoction of thriving plants, and an oasis of calm. On the other hand, the monoculture plantation is a sign of doom for ecosystems, human health, and communal life – even as they largely structure global food production and consumption of commodities in industrialised economies. So, why to study the two side by side? What role did institutions such as the botanical garden have in furthering the plantation economy?
 </div>
 
 <br>
