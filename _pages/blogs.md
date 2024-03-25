@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Blogs
+title: Posts
 permalink: /blogs/
 nav: true
 nav_order: 1
