@@ -21,3 +21,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # kramdown v1, comment out this line.
 gem "kramdown-parser-gfm"
 gem "jekyll-paginate-v2"
+
+gem "webrick", "~> 1.8"

@@ -50,6 +50,9 @@ collections:
   workpics:
     output: true
     permalink: /_workpics
+  currents:
+    output: true
+    permalink: /_currents
 
 # Defaults
 defaults:
@@ -81,6 +84,12 @@ defaults:
       layout: "default"
       home: false
       priority: "a"
+  -
+    scope:
+      path: "_currents"
+      type: "currents"
+    values:
+      layout: "default"
 
 # Plug-ins
 plugins:
