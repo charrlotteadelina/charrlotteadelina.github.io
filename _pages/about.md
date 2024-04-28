@@ -23,3 +23,7 @@ For my thesis, I study the processes and politics of greening Coimbatore city in
 <div style="text-align: left">
 I am always on the look-out for authentic conversations with fellow researchers.
 </div>
+
+<br>
+
+For information on the courses I teach, see here: https://www.geo.fu-berlin.de/geog/fachrichtungen/anthrogeog/zelf/MitarbeiterInnen/Adelina/index.html
