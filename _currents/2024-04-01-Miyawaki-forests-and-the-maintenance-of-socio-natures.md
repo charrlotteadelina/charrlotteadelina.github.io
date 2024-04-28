@@ -10,6 +10,7 @@ chart:
 giscus_comments: true
 toc:
   sidebar: left
+forward: https://tnoc-festival.com/wp/2024-micro-talks/
 ---
 
 <br>

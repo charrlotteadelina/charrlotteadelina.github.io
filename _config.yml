@@ -52,7 +52,7 @@ collections:
     permalink: /_workpics
   currents:
     output: true
-    permalink: /_currents
+    permalink: /:collection/:name
 
 # Defaults
 defaults:
@@ -86,7 +86,7 @@ defaults:
       priority: "a"
   -
     scope:
-      path: "_currents"
+      path: ""
       type: "currents"
     values:
       layout: "default"

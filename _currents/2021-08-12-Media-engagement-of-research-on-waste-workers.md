@@ -10,6 +10,7 @@ chart:
 giscus_comments: true
 toc:
   sidebar: left
+forward: https://www.medicalnewstoday.com/articles/how-and-why-are-the-poorest-people-most-likely-to-have-exposure-to-toxins#Residence-and-work
 ---
 
 <br>

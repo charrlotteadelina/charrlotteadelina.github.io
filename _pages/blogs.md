@@ -3,7 +3,7 @@ layout: current
 title: Current
 first_title: Blogs
 second_title: Engagements
-permalink: /blogs/
+permalink: /currents/
 nav: true
 nav_order: 1
 pagination:
@@ -30,7 +30,8 @@ order: 4
         </hgroup>
         {% endif %}
 
-{% for post in site.posts %}
+{% assign sorted = site.posts | sort: 'date' | reverse %}
+{% for post in sorted %}
 <div class="post-preview">
  <img class="post-preview__left" src="{{ post.image }}" alt="{{ page.image_alt }}">
  <div class="post-preview__right">
@@ -72,7 +73,7 @@ order: 4
         </hgroup>
         {% endif %}
         
-{% assign sorted = site.currents | sort: 'date' | reverse  %}
+{% assign sorted = site.currents | sort: 'date' | reverse %}
 {% for post in sorted %}
   <div class="post-preview">
   <img class="post-preview__left" src="{{ post.image }}" alt="{{ page.image_alt }}">
@@ -85,7 +86,7 @@ order: 4
       .link:visited {colour: #cc00ff}
     </style>  
     </head>
-    <a class="link" href="{{ post.url }}">{{ post.title }}</a>
+    <a class="link" href="{{ post.forward }}">{{ post.title }}</a> 
     <span>{{ post.date | date: "%b %d, %Y" }}</span>
     <div class="tag-group">
       {% for tag in post.tags %}

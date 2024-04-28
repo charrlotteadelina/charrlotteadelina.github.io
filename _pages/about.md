@@ -26,5 +26,14 @@ I am always on the look-out for authentic conversations with fellow researchers.
 
 <br>
 <div style="text-align: left">
-For information on the courses I teach, see here: https://www.geo.fu-berlin.de/geog/fachrichtungen/anthrogeog/zelf/MitarbeiterInnen/Adelina/index.html
+<style>
+   a.link { color: #013220; }
+   a.link:hover { color: #0099ff; } 
+   a.link { text-decoration: underline }
+   a.link:visited {colour: #cc00ff}
+</style>
+For information on the courses I teach, see here: 
+<a class="link" href="https://www.geo.fu-berlin.de/geog/fachrichtungen/anthrogeog/zelf/MitarbeiterInnen/Adelina/index.html" >
+   https://www.geo.fu-berlin.de/geog/fachrichtungen/anthrogeog/zelf/MitarbeiterInnen/Adelina/index.html
+</a>
 </div>
