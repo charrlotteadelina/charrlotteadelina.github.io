@@ -1,7 +1,7 @@
 ---
 layout: current
 title: Current
-first_title: Blogs
+first_title: Commentary
 second_title: Engagements
 permalink: /currents/
 nav: true
