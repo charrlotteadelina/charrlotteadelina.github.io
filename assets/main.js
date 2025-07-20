@@ -7,11 +7,11 @@
 * @author http://pedroduarte.me/wallop
 *
 */
-!function (t) {
-  function e(t, e) {
-    if (!t)
+!function (global) {
+  function Wallop(selector, options) {
+    if (!selector)
       throw new Error("Missing selector. Refer to Usage documentation: https://github.com/peduarte/wallop#javascript");
-    for (var s = 0; s < l.length; s++)if (l[s] === t)
+    for (var s = 0; s < l.length; s++)if (l[s] === selector)
       throw new Error("An instance of Wallop with this selector already exists.");
     if (this.options = {
       buttonPreviousClass: "Wallop-buttonPrevious",
@@ -25,67 +25,147 @@
       carousel: !0
     }
       , this.whitelist = { form: !0 }
-      , t.length > 0 && !this.whitelist[t])
+      , selector.length > 0 && !this.whitelist[selector])
       throw new Error("Selector cannot be an array, Refer to Usage documentation: https://github.com/peduarte/wallop#javascript");
-    this.$selector = t, this.options = n(this.options, e), this.event = null, this.reset(), this.buttonPrevious = this.$selector.querySelector(" ." + this.options.buttonPreviousClass), this.buttonNext = this.$selector.querySelector(" ." + this.options.buttonNextClass), this.bindEvents(), this.createCustomEvent(), this.currentItemIndex === -1 && (this.currentItemIndex = 0, i(this.allItemsArray[this.currentItemIndex], this.options.currentItemClass)), this.updateButtonStates(); var o = this; setTimeout(function () { o.event.detail.currentItemIndex = o.currentItemIndex, o.$selector.dispatchEvent(o.event) }, 0)
-  }
-  function s(t, e) { if (t) return e || (e = document), e.querySelector("." + t) } function i(t, e) {
-    t && (t.className = (t.className + " " + e).trim())
-  }
-  function o(t, e) {
-    t && (t.className = t.className.replace(e, "").trim())
+    this.$selector = selector, this.options = n(this.options, options), this.event = null, this.reset(), this.buttonPrevious = this.$selector.querySelector(" ." + this.options.buttonPreviousClass), this.buttonNext = this.$selector.querySelector(" ." + this.options.buttonNextClass), this.bindEvents(), this.createCustomEvent(), this.currentItemIndex === -1 && (this.currentItemIndex = 0, i(this.allItemsArray[this.currentItemIndex], this.options.currentItemClass)), this.updateButtonStates(); var o = this; setTimeout(function () { o.event.detail.currentItemIndex = o.currentItemIndex, o.$selector.dispatchEvent(o.event) }, 0)
   }
 
-  function n(t, e) {
-    var s, i = {}; for (s in t) i[s] = t[s]; for (s in e) i[s] = e[s]; return i
+  function getElementByClass(className, context) {
+    if (className) return context || (context = document), context.querySelector("." + className)
+  }
+  function addClassToElement(element, className) {
+    element && (element.className = (element.className + " " + className).trim())
+  }
+  function removeClassFromElement(element, className) {
+    element && (element.className = element.className.replace(className, "").trim())
   }
 
-  function r(t, e) {
-    e = e ||
-      { bubbles: !1, cancelable: !1, detail: void 0 }; var s = document.createEvent("CustomEvent"); return s.initCustomEvent(t, e.bubbles, e.cancelable, e.detail), s
-  } var l = [], u = e.prototype;
+  function mergeObjects(obj1, obj2) {
+    var key, merged = {};
+    for (key in obj1) merged[key] = obj1[key];
+    for (key in obj2) merged[key] = obj2[key];
+    return merged;
+  }
 
-  u.updateButtonStates = function () {
-    !this.buttonPrevious && !this.buttonNext || this.options.carousel || (this.currentItemIndex === this.lastItemIndex ? this.buttonNext.setAttribute("disabled", "disabled") : 0 === this.currentItemIndex && this.buttonPrevious.setAttribute("disabled", "disabled"))
-  }, u.removeAllHelperSettings = function () {
-    o(this.allItemsArray[this.currentItemIndex],
-      this.options.currentItemClass),
-      o(s(this.options.hidePreviousClass,
-        this.$selector), this.options.hidePreviousClass),
-      o(s(this.options.hideNextClass, this.$selector),
-        this.options.hideNextClass),
-      o(s(this.options.showPreviousClass,
-        this.$selector), this.options.showPreviousClass),
-      o(s(this.options.showNextClass, this.$selector),
-        this.options.showNextClass), (this.buttonPrevious || this.buttonNext) && (this.buttonPrevious.removeAttribute("disabled"), this.buttonNext.removeAttribute("disabled"))
-  }, u.goTo = function (t) {
-    if (t !== this.currentItemIndex && (t = t === -1 && this.options.carousel ? this.lastItemIndex : t, t = t === this.lastItemIndex + 1 && this.options.carousel ? 0 : t, !(t < 0 || t > this.lastItemIndex))) {
-      this.removeAllHelperSettings()
-      var e = (t > this.currentItemIndex || 0 === t && this.currentItemIndex === this.lastItemIndex) && !(t === this.lastItemIndex && 0 === this.currentItemIndex);
-      i(this.allItemsArray[this.currentItemIndex], e ? this.options.hidePreviousClass : this.options.hideNextClass), i(this.allItemsArray[t], this.options.currentItemClass + " " + (e ? this.options.showNextClass : this.options.showPreviousClass)), this.currentItemIndex = t, this.updateButtonStates(), this.event.detail.currentItemIndex = this.currentItemIndex, this.$selector.dispatchEvent(this.event)
+  function createCustomEvent(eventName, eventOptions) {
+    eventOptions = eventOptions || { bubbles: !1, cancelable: !1, detail: void 0 };
+    var customEvent = document.createEvent("CustomEvent");
+    customEvent.initCustomEvent(eventName, eventOptions.bubbles, eventOptions.cancelable, eventOptions.detail);
+    return customEvent;
+  }
+  var wallopInstances = [], wallopProto = Wallop.prototype;
+
+  wallopProto.updateButtonStates = function () {
+    if (!this.buttonPrevious && !this.buttonNext) return;
+    if (this.options.carousel) return;
+    if (this.currentItemIndex === this.lastItemIndex) {
+      this.buttonNext.setAttribute("disabled", "disabled");
+    } else if (this.currentItemIndex === 0) {
+      this.buttonPrevious.setAttribute("disabled", "disabled");
     }
-  }, u.previous = function () {
-    this.goTo(this.currentItemIndex - 1)
-  }, u.next = function () {
-    this.goTo(this.currentItemIndex + 1)
-  }, u.reset = function () {
-    this.allItemsArray = Array.prototype.slice.call(this.$selector.querySelectorAll(" ." + this.options.itemClass)), this.currentItemIndex = this.allItemsArray.indexOf(this.$selector.querySelector(" ." + this.options.currentItemClass)), this.lastItemIndex = this.allItemsArray.length - 1
-  }, u.bindEvents = function () {
-    l.push(this.$selector);
-    var t = this;
-    this.buttonPrevious && this.buttonPrevious.addEventListener("click", function (e) { e.preventDefault(), t.previous() }), this.buttonNext && this.buttonNext.addEventListener("click", function (e) {
-      e.preventDefault(), t.next()
-    })
-  }, u.on = function (t, e) {
-    this.$selector.addEventListener(t, e, !1)
-  }, u.off = function (t, e) {
-    this.$selector.removeEventListener(t, e, !1)
-  }, u.createCustomEvent = function () {
-    var t = this;
-    this.event = new r("change", { detail: { wallopEl: t.$selector, currentItemIndex: Number(t.currentItemIndex) }, bubbles: !0, cancelable: !0 })
-  }, r.prototype = window.CustomEvent ? window.CustomEvent.prototype : {}, window.CustomEvent = r, "function" == typeof define && define.amd ? define(function () {
-    return e
-  }) : "undefined" != typeof module && module.exports ? module.exports = e : t.Wallop = e
+  };
+
+  wallopProto.removeAllHelperSettings = function () {
+    removeClassFromElement(this.allItemsArray[this.currentItemIndex], this.options.currentItemClass);
+    removeClassFromElement(getElementByClass(this.options.hidePreviousClass, this.$selector), this.options.hidePreviousClass);
+    removeClassFromElement(getElementByClass(this.options.hideNextClass, this.$selector), this.options.hideNextClass);
+    removeClassFromElement(getElementByClass(this.options.showPreviousClass, this.$selector), this.options.showPreviousClass);
+    removeClassFromElement(getElementByClass(this.options.showNextClass, this.$selector), this.options.showNextClass);
+    if (this.buttonPrevious || this.buttonNext) {
+      this.buttonPrevious.removeAttribute("disabled");
+      this.buttonNext.removeAttribute("disabled");
+    }
+  };
+
+  wallopProto.goTo = function (index) {
+    if (
+      index !== this.currentItemIndex &&
+      (index = index === -1 && this.options.carousel ? this.lastItemIndex : index,
+      index = index === this.lastItemIndex + 1 && this.options.carousel ? 0 : index,
+      !(index < 0 || index > this.lastItemIndex))
+    ) {
+      this.removeAllHelperSettings();
+      var isNext =
+        (index > this.currentItemIndex || (index === 0 && this.currentItemIndex === this.lastItemIndex)) &&
+        !(index === this.lastItemIndex && this.currentItemIndex === 0);
+      addClassToElement(
+        this.allItemsArray[this.currentItemIndex],
+        isNext ? this.options.hidePreviousClass : this.options.hideNextClass
+      );
+      addClassToElement(
+        this.allItemsArray[index],
+        this.options.currentItemClass + " " + (isNext ? this.options.showNextClass : this.options.showPreviousClass)
+      );
+      this.currentItemIndex = index;
+      this.updateButtonStates();
+      this.event.detail.currentItemIndex = this.currentItemIndex;
+      this.$selector.dispatchEvent(this.event);
+    }
+  };
+
+  wallopProto.previous = function () {
+    this.goTo(this.currentItemIndex - 1);
+  };
+
+  wallopProto.next = function () {
+    this.goTo(this.currentItemIndex + 1);
+  };
+
+  wallopProto.reset = function () {
+    this.allItemsArray = Array.prototype.slice.call(
+      this.$selector.querySelectorAll(" ." + this.options.itemClass)
+    );
+    this.currentItemIndex = this.allItemsArray.indexOf(
+      this.$selector.querySelector(" ." + this.options.currentItemClass)
+    );
+    this.lastItemIndex = this.allItemsArray.length - 1;
+  };
+
+  wallopProto.bindEvents = function () {
+    wallopInstances.push(this.$selector);
+    var self = this;
+    if (this.buttonPrevious) {
+      this.buttonPrevious.addEventListener("click", function (e) {
+        e.preventDefault();
+        self.previous();
+      });
+    }
+    if (this.buttonNext) {
+      this.buttonNext.addEventListener("click", function (e) {
+        e.preventDefault();
+        self.next();
+      });
+    }
+  };
+
+  wallopProto.on = function (eventName, handler) {
+    this.$selector.addEventListener(eventName, handler, !1);
+  };
+
+  wallopProto.off = function (eventName, handler) {
+    this.$selector.removeEventListener(eventName, handler, !1);
+  };
+
+  wallopProto.createCustomEvent = function () {
+    var self = this;
+    this.event = new createCustomEvent("change", {
+      detail: { wallopEl: self.$selector, currentItemIndex: Number(self.currentItemIndex) },
+      bubbles: !0,
+      cancelable: !0,
+    });
+  };
+
+  createCustomEvent.prototype = window.CustomEvent ? window.CustomEvent.prototype : {};
+  window.CustomEvent = createCustomEvent;
+  if (typeof define == "function" && define.amd) {
+    define(function () {
+      return Wallop;
+    });
+  } else if (typeof module != "undefined" && module.exports) {
+    module.exports = Wallop;
+  } else {
+    global.Wallop = Wallop;
+  }
 }(this);
 
 
