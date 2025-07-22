@@ -44,7 +44,20 @@ include: ["_pages"]
 collections:
   works:
     output: true
-    permalink: /:collection/:name
+    permalink: /works/:name/
+    directory: _works
+  peerreview:
+    output: true
+    permalink: /peerreview/:name/
+    directory: _peerreview
+  bookreview:
+    output: true
+    permalink: /bookreview/:name/
+    directory: _bookreview
+  policyreports:
+    output: true
+    permalink: /policyreports/:name/
+    directory: _policyreports
   clients:
     output: false
   workpics:

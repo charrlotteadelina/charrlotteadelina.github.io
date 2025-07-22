@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Situated Vegetal Ecologies of Street Trees in Coimbatore
+title: Situated Vegetal Ecologies of Street Trees, published by Berliner Gazette
 date: 2024-06-27
 description:
 tags: 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Botanical Gardens in the Plantationocene
+title: Teaching Reflection - Botanical Gardens in the Plantationocene
 date: 2024-03-15
 description: Teaching Reflections
 tags: 
