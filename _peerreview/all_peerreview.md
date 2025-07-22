@@ -14,10 +14,10 @@ description: List of all papers
 </style>
 
 <br>
-[Adelina, C. (2025). A sociology of vegetal life: rethinking ‘harmony’ and ‘nativism’ in Miyawaki forests. Cultural Geographies, 0(0)](https://doi.org/10.1177/14744740251324906)
+[Adelina, C. (2025). A sociology of vegetal life: rethinking ‘harmony’ and ‘nativism’ in Miyawaki forests. Cultural Geographies](https://doi.org/10.1177/14744740251324906)
 
 <br>
-[Adelina, C. (2025). Ruderal involutions:  An uneven vegetal geography  of Coimbatore. Environment and Planning E: Nature and Space, 0(0)](https://doi.org/10.1177/25148486251344064)
+[Adelina, C. (2025). Ruderal involutions:  An uneven vegetal geography  of Coimbatore. Environment and Planning E: Nature and Space](https://doi.org/10.1177/25148486251344064)
 
 <br>
 Adelina, C., & Han, J. Y. C. (2025). Entrepreneurial urbanization and masculine identities: an exploratory study of Khon Kaen, Thailand. Asian Journal of Social Science, 53(2), 100197.
