@@ -21,7 +21,7 @@ For my dissertation, I study the processes and politics of greening Coimbatore c
 <br>
 
 <div style="text-align: left">
-I am also part of the Berlin University Alliance funded project: [Human Health & Multispecies Cohabitation on an Urban Planet] (https://multispecieshealth.com/). I am always on the look-out for authentic conversations with fellow researchers.
+I am also part of the Berlin University Alliance funded project: [Human Health & Multispecies Cohabitation on an Urban Planet](https://multispecieshealth.com/). I am always on the look-out for authentic conversations with fellow researchers.
 
 <br>
 <div style="text-align: left">
@@ -31,6 +31,6 @@ I am also part of the Berlin University Alliance funded project: [Human Health &
    a.link { text-decoration: underline }
    a.link:visited {colour: #cc00ff}
 </style>
-For information on the courses I teach, see [here] (https://www.geo.fu-berlin.de/geog/fachrichtungen/anthrogeog/zelf/MitarbeiterInnen/Adelina/index.html)
+For information on the courses I teach, see [here](https://www.geo.fu-berlin.de/geog/fachrichtungen/anthrogeog/zelf/MitarbeiterInnen/Adelina/index.html)
 </a>
 </div>
