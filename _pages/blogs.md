@@ -1,6 +1,6 @@
 ---
 layout: current
-title: Blogs
+title: Blog
 heading: Engagements
 permalink: /currents/
 nav: true
