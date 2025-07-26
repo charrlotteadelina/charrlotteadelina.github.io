@@ -104,7 +104,7 @@
 
     // Fix the index if it's out of bounds and carousel is enabled
     index = index === -1 && this.options.carousel ? this.lastItemIndex : index;
-    index = index === this.lastItemIndex + 1 && this.options.carousel ? 0 : index;
+    index = index === this.lastItemIndex && this.options.carousel ? 0 : index;
 
     // Exit when index is out of bounds
     if (index < 0 || index > this.lastItemIndex) { return; }
@@ -113,7 +113,7 @@
 
     var isForwards = (index > this.currentItemIndex || index === 0 && this.currentItemIndex === this.lastItemIndex) && !(index === this.lastItemIndex && this.currentItemIndex === 0);
     addClass(this.allItemsArray[this.currentItemIndex], isForwards ? this.options.hidePreviousClass : this.options.hideNextClass);
-    addClass(this.allItemsArray[index], this.options.currentItemClass + ' ' + (isForwards ? this.options.showNextClass : this.options.showPreviousClass));
+    addClass(this.allItemsArray[index], this.options.currentItemClass + ' ' + (isForwards ? this.options.showNextClass: this.options.showPreviousClass));
 
     this.currentItemIndex = index;
 

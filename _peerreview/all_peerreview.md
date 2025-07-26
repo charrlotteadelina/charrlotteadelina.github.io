@@ -14,10 +14,10 @@ description: List of all papers
 </style>
 
 <br>
-[Adelina, C. (2025). A sociology of vegetal life: rethinking ‘harmony’ and ‘nativism’ in Miyawaki forests. Cultural Geographies](https://doi.org/10.1177/14744740251324906)
+Adelina, C. (2025). [A sociology of vegetal life: rethinking ‘harmony’ and ‘nativism’ in Miyawaki forests.](https://doi.org/10.1177/14744740251324906) Cultural Geographies
 
 <br>
-[Adelina, C. (2025). Ruderal involutions:  An uneven vegetal geography  of Coimbatore. Environment and Planning E: Nature and Space](https://doi.org/10.1177/25148486251344064)
+Adelina, C. (2025). [Ruderal involutions:  An uneven vegetal geography  of Coimbatore.](https://doi.org/10.1177/25148486251344064) Environment and Planning E: Nature and Space
 
 <br>
 Adelina, C., & Han, J. Y. C. (2025). Entrepreneurial urbanization and masculine identities: an exploratory study of Khon Kaen, Thailand. Asian Journal of Social Science, 53(2), 100197.
@@ -32,4 +32,4 @@ Adelina, C., Archer, D. Johnson, O. and Opiyo, R. O. (2021) Inclusion in urban e
 Tuhkanen, H., Cinderby, S., De Bruin, A., Wikman, A., Adelina, C., Archer, D., & Muhoza, C. (2022). Health and wellbeing in cities-Cultural contributions from urban form in the Global South context. Wellbeing, Space and Society, 3, 100071.
 
 <br>
-[Anand, S.,, Jagadeesh, K., Adelina, C., and Koduganti, J. (2019) ‘Urban Food Insecurity and Its Determinants: A Baseline Study of Bengaluru’, Environment and Urbanization.](https://doi.org/10.1177/0956247819861899)
+Anand, S.,, Jagadeesh, K., Adelina, C., and Koduganti, J. (2019) ‘Urban Food Insecurity and Its Determinants: A Baseline Study of Bengaluru’, Environment and Urbanization.
