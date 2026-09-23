@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Podcast with Angela Last about her new book, "Tainted Tools: New materialisms as a decolonial project" (Manchester University Press, 2026)'
-date: 2026-09-23
+date: 2026-09-22
 description:
 tags: 
 categories: 
