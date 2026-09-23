@@ -25,7 +25,13 @@ I am Charrlotte, a  postdoctoral researcher in the Institute of Anthropology at 
 <br>
 
 <div style="text-align: left">
-For my doctoral dissertation, I studied the processes and politics of greening Coimbatore city in India, to delineate a lively political ecology of urban forests. My fieldwork traced afforestation projects and the ways in which it reorders relationships between humans, trees, and other beings, in a space activated by modalities of entrepreneurial urbanisation and more-than-human agencies. Through my work, I aim to bring together stories of human and more-than-human aspirations in uneven landscapes and their contested politics of place. 
+I am interested in advancing a critical more-than-human geography which centers both intra-human and more-than-human differences as these relations which unfold in uneven urban spaces. My doctoral research brought in such a political sensibility of thinking from the margins into the realm of vegetal geography. In this work, I sought to expand the possibilities and politics of plant thinking, by centering urban inequalities and by thinking through situated epistemologies in thinking and living with plant life. 
+</div>
+
+<br>
+
+<div style="text-align: left">
+I am trained in human geography which fosters an interdisciplinary but critical reading to expand understandings of the reconfiguration of relations in space. I employ qualitative and experimental methods to understand the dynamic, contested, and emergent relations and politics of urban Asia.
 </div>
 
 <br>
