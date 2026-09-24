@@ -32,11 +32,11 @@ I hold an Integrated Masters in Development Studies from the Indian Institute of
 <br>
 
 <div style="text-align: left">
-I am interested in advancing a critical more-than-human geography which centers both intra-human and more-than-human differences as these relations which unfold in uneven urban spaces. My doctoral research brought in such a political sensibility of thinking from the margins into the realm of vegetal geography. In this work, I sought to expand the possibilities and politics of plant thinking, by centering urban inequalities and by thinking through situated epistemologies in thinking and living with plant life. 
+I am interested in advancing a critical more-than-human geography which centers both intra-human and more-than-human differences as relations unfold in uneven urban spaces. My doctoral research brought in such a political sensibility of thinking from the margins into the realm of vegetal geography. In this work, I sought to expand the possibilities and politics of plant thinking, by centering urban inequalities and by thinking through situated epistemologies in thinking and living with plant life, working across more-than-human geography, southern urban theory, and political ecology. 
 </div>
 
 <br>
 
 <div style="text-align: left">
-I am trained in human geography which fosters an interdisciplinary but critical reading to expand understandings of the reconfiguration of relations in space. I employ qualitative and experimental methods to understand the dynamic, contested, and emergent relations and politics of urban Asia.
+I am trained in human geography which fosters an interdisciplinary but critical understanding of the reconfiguration of relations in space. I employ qualitative and experimental methods to understand the dynamic, contested, and emergent relations and politics of urban Asia. 
 </div>
