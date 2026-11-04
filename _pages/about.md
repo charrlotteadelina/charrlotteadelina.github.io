@@ -40,3 +40,29 @@ I am interested in advancing a critical more-than-human geography which centers 
 <div style="text-align: left">
 I am trained in human geography which fosters an interdisciplinary but critical understanding of the reconfiguration of relations in space. I employ qualitative and experimental methods to understand the dynamic, contested, and emergent relations and politics of urban Asia. 
 </div>
+
+<h1 class="floating-header"> ✉️ Leipzig University servers are currently down due to a cyberattack. Please write to me at charrlotte.adelina@alumni.iitm.ac.in until this issue is resolved ✉️</h1>
+
+<style>
+.floating-header {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #24292e;
+    display: block;
+    margin: 20px auto;
+    animation: floatUpDown 3s ease-in-out infinite;
+}
+
+/* Creates a smooth, weightless hovering effect */
+@keyframes floatUpDown {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-15px); /* Height of the hover path */
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+</style>
