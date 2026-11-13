@@ -46,7 +46,7 @@ I am trained in human geography which fosters an interdisciplinary but critical 
 <style>
 .floating-header {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     color: #24292e;
     display: block;
     margin: 20px auto;
